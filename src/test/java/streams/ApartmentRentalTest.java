@@ -36,7 +36,7 @@ class ApartmentRentalTest {
         assertEquals(2, result.size());
     }
 
-    @Test
+     @Test
     void testFindApartmentByExtras(){
         List<Apartment> result = apartmentRental.findApartmentByExtras("WIFI");
 
